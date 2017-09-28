@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.homepage     = 'http://aws.amazon.com/cognito'
   s.license      = 'Amazon Software License'
   s.author       = { 'Amazon Web Services' => 'amazonwebservices' }
-  s.platform     = :ios, '8.0'
+  s.platform     = :osx, '10.12'
   s.source       = { :git => 'https://github.com/cornexo/aws-sdk-ios.git',
                      :tag => s.version}
   s.requires_arc = true
